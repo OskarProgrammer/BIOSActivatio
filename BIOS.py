@@ -25,7 +25,7 @@ if decision == "Y" or decision.lower()=="y":
     for x in range(args.time,0,-1):
         print(x,end="\n")
         time.sleep(1)
-    # os.system("shutdown /r /fw /f /t 0")
+    os.system("shutdown /r /fw /f /t 0")
 else:
     os.system("cls")
 
